@@ -1,0 +1,200 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+header{
+    height: 100px;
+}
+footer{
+    height: 80px;
+    padding-top: 30px;
+    background-color: #c5c5c5;
+    border-top: 2px solid #bbb;
+}
+#pi{
+    text-align: center;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+}
+.menu-ind:hover, .présentation{
+    border-top: 5px solid #4c8;
+    background-color: rgba(64, 200, 130, 0.15);
+}
+.menu-pro:hover, .parcours{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-hob:hover, .competences{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-con:hover, .fichier{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.cv-photo{
+    width: 200px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    float: right; 
+    margin-right: 20px; 
+}
+.iscod{
+    width: 150px;
+    height: 150px; 
+    border-radius: 20px; 
+    box-shadow: 1px 4px 8px #007;
+    float: left;
+    margin-right: 30px;
+}
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sec{
+    margin: 0px 10%;
+
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+.sec::after, .for::after, .dow::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+#p1{
+    text-align: justify;
+    font-size: 20px;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+.orange{
+    border-top: 5px solid #dd7513;
+    background-color: rgba(228, 117, 38, 0.15);
+    margin-bottom: 0px;
+}
+.gris{
+    border-top: 5px solid #000;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+.vert{
+    border-top: 5px solid #5f6;
+}
+.blue{
+    border-top: 5px solid #007;
+}
+.jaune{
+    border-top: 5px solid #f1dc4f;
+}
+.rouge{
+    border-top: 5px solid #e44d26;
+}
+.rouge p{
+    font-size: 20px;
+}
+.leftexp{
+    width: 45%;
+    float: left;
+}
+.rightexp p{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    text-align: justify;
+    font-size: 20px;
+}
+.leftexp img{
+    max-width: 400px;
+    object-fit: cover;
+    float: right;
+    margin-right: 90px;
+}
+.htcs{
+    position: relative;
+    left: 60px;
+}
+@media screen and (max-width: 780px){
+    header{
+        height: 70px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    .iscod{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: 20px;
+    }
+    .dow h2{
+        position: relative;
+        right: 30px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+    .leftexp img{
+        float: right;
+        position: relative;
+        left: 100px;
+    }
+    .htcs{
+        width: 200px;
+        height: 200px;
+    }
+}
+
