@@ -8,10 +8,12 @@ h1{
     font-size: 40px;
     font-weight: normal;
     text-align: center; 
+    margin-top: 20px;
     
 }
 header{
-    height: 1rem;
+    height: auto; 
+    padding: 20px 0;
 }
 footer{
     height: 80px;
