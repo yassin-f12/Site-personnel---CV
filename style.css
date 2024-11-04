@@ -9,6 +9,7 @@ h1{
     font-weight: normal;
     text-align: center;
     margin-top: 40px;
+    position: relative;
 }
 header{
     height: 100px;
